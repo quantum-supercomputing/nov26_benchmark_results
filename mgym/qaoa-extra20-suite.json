@@ -1,0 +1,272 @@
+{
+  "name": "qaoa-core-suite",
+  "description": "Verified Linear Ramp QAOA benchmarks.",
+  "benchmarks": [
+    {
+        "name": "10Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":10,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "15Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":15,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "20Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":20,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "25Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":25,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "30Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":30,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "35Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":35,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "40Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":40,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "45Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":45,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "50Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":50,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "55Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":55,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "60Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":60,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "65Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":65,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "70Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":70,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "75Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":75,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "80Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":80,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "85Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":85,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "90Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":90,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "95Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":95,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "100Q-1D-20layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":100,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[20],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    }
+  ]
+}

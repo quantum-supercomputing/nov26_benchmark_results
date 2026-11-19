@@ -1,0 +1,89 @@
+{
+  "name": "qaoa-core-suite",
+  "description": "Verified Linear Ramp QAOA benchmarks.",
+  "benchmarks": [
+    {
+        "name": "16Q-1D-10layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":16,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[10],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "32Q-1D-10layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":32,
+            "graph_type":"1D",
+            "shots": 1024,
+            "qaoa_layers":[10],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "16Q-NL-10layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":16,
+            "graph_type":"NL",
+            "shots": 1024,
+            "qaoa_layers":[10],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "32Q-NL-10layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":32,
+            "graph_type":"NL",
+            "shots": 1024,
+            "qaoa_layers":[10],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "16Q-FC-10layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":16,
+            "graph_type":"FC",
+            "shots": 1024,
+            "qaoa_layers":[10],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+
+        }
+    },
+    {
+        "name": "32Q-FC-10layers",
+        "config": {
+            "benchmark_name": "Linear Ramp QAOA",
+            "num_qubits":32,
+            "graph_type":"FC",
+            "shots": 1024,
+            "qaoa_layers":[10],
+            "delta_beta": 0.3,
+            "delta_gamma": 0.6,
+            "trials": 16
+        }
+    }
+  ]
+}
